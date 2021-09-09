@@ -1,9 +1,9 @@
 ## Trabajo práctico final de la asignatura DCI ##
 Este repositorio contiene el trabajo práctico final para la asignatura de Diseño de Circuitos Impresos de la carrera de posgrado de FIUBA.
 
-* Autor: XXXXCOMPLETARXXXX
-* Título corto del trabajo:  XXXXCOMPLETARXXXX
-* Descripción:  XXXXCOMPLETARXXXX
+* Autor: Geronimo, Franco Ezequiel
+* Título corto del trabajo:  Replica Modulo Driver 16-Ch PWM con PCA9685
+* Descripción:  El presente trabajo consiste en elaborar un nuevo disño para un módulo controlador de 16 canales PWM/Servos mediante I2C con el integrado PCA9685.
 
 
 ## Licencia de este trabajo ##
