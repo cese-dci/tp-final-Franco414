@@ -3,14 +3,10 @@ Este repositorio contiene el trabajo práctico final para la asignatura de Dise�
 
 * Autor: Geronimo, Franco Ezequiel
 * Título corto del trabajo:  Replica Modulo Driver 16-Ch PWM con PCA9685
-* Descripción:  El presente trabajo consiste en elaborar un nuevo disño para un módulo controlador de 16 canales PWM/Servos mediante I2C con el integrado PCA9685.
-
+* Descripción:  El presente trabajo consiste en elaborar un nuevo diseño para el módulo Adafruit controlador de 16 canales PWM/Servos mediante I2C con el integrado PCA9685.
 
 ## Licencia de este trabajo ##
-XXXMENCIONAR ACÁ LA LICENCIAXXX (Editar este párrafo) 
-Y además colcar el archivo de texto de la misma en el directorio raíz.
-Para este TP se pide que la licencia sea de hardware abierto.
-Ver la sección "What license should I use?": https://www.oshwa.org/faq/
+Esta obra está bajo una Licencia Creative Commons Atribución 4.0 Internacional. 2021
 
 ## Estructura del TP FINAL ##
 
@@ -30,10 +26,3 @@ Se propone y se pide utilizar la siguiente estructura.
   * Info de productos comerciales.
   * Info en internet.
 * pcb: Archivos de diseño esquemático y pcb.
-
-Dependiendo la magnitud del proyecto, tendremos más o menos información en estos directorios. 
-Revisar los README.md en cada directorio para conocer las pautas de cada uno para este TP.
-
-NOTA: El alumno puede y debe borrar de este archivo todo lo que considere necesario, por ejemplo las aclaraciones del docente y esta misma nota.
-
-

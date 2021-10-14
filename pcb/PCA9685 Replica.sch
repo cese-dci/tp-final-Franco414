@@ -17,10 +17,11 @@ $Comp
 L Driver_LED:PCA9685PW U1
 U 1 1 61384471
 P 5600 2900
-F 0 "U1" H 6000 1800 50  0000 C CNN
-F 1 "PCA9685PW" H 6000 1900 50  0000 C CNN
+F 0 "U1" H 6150 1700 50  0000 C CNN
+F 1 "PCA9685PW" H 6150 1900 50  0000 C CNN
 F 2 "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm" H 5625 1925 50  0001 L CNN
 F 3 "http://www.nxp.com/documents/data_sheet/PCA9685.pdf" H 5200 3600 50  0001 C CNN
+F 4 "568-11925-6-ND(Digikey)" H 6250 1800 50  0000 C CNN "Código"
 	1    5600 2900
 	1    0    0    -1  
 $EndComp
@@ -94,10 +95,11 @@ $Comp
 L Connector_Generic:Conn_01x06 J18
 U 1 1 6138FF5B
 P 2550 5700
-F 0 "J18" H 2500 5250 50  0000 L CNN
+F 0 "J18" H 2500 5300 50  0000 L CNN
 F 1 "Conn_01x06" H 2630 5601 50  0001 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2550 5700 50  0001 C CNN
-F 3 "~" H 2550 5700 50  0001 C CNN
+F 3 "https://www.mouser.com/catalog/additional/Amphenol_bwb_bergstik.pdf" H 2550 5700 50  0001 C CNN
+F 4 "NRC006SAAN-RC (Digikey)" H 2850 5200 50  0000 C CNN "Código"
 	1    2550 5700
 	1    0    0    -1  
 $EndComp
@@ -108,7 +110,8 @@ P 3050 5200
 F 0 "R22" V 2843 5200 50  0000 C CNN
 F 1 "470" V 2934 5200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 2980 5200 50  0001 C CNN
-F 3 "~" H 3050 5200 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 3050 5200 50  0001 C CNN
+F 4 "RC0805DK07470L(Digikey)" H 3050 5200 50  0001 C CNN "Código"
 	1    3050 5200
 	0    1    1    0   
 $EndComp
@@ -119,7 +122,7 @@ P 2600 5200
 F 0 "D1" H 2600 5000 50  0000 C CNN
 F 1 "LED" H 2600 5100 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Castellated" H 2600 5200 50  0001 C CNN
-F 3 "~" H 2600 5200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/143/17-21-BHC-AP1Q2-3T_datasheet-51933.pdf" H 2600 5200 50  0001 C CNN
 	1    2600 5200
 	-1   0    0    1   
 $EndComp
@@ -130,7 +133,8 @@ P 1700 5450
 F 0 "R24" H 1770 5496 50  0000 L CNN
 F 1 "10K" H 1770 5405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 1630 5450 50  0001 C CNN
-F 3 "~" H 1700 5450 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1700 5450 50  0001 C CNN
+F 4 "RC0805DK0710KL(Digikey)" H 1700 5450 50  0001 C CNN "Código"
 	1    1700 5450
 	1    0    0    -1  
 $EndComp
@@ -141,7 +145,8 @@ P 1350 5450
 F 0 "R23" H 1420 5496 50  0000 L CNN
 F 1 "10K" H 1420 5405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 1280 5450 50  0001 C CNN
-F 3 "~" H 1350 5450 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1350 5450 50  0001 C CNN
+F 4 "RC0805DK0710KL(Digikey)" H 1350 5450 50  0001 C CNN "Código"
 	1    1350 5450
 	1    0    0    -1  
 $EndComp
@@ -163,7 +168,8 @@ P 10400 6150
 F 0 "J16" H 10480 6192 50  0000 L CNN
 F 1 "Conn_01x03" H 10480 6101 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10400 6150 50  0001 C CNN
-F 3 "~" H 10400 6150 50  0001 C CNN
+F 3 "https://www.mouser.com/catalog/additional/Amphenol_bwb_bergstik.pdf" H 10400 6150 50  0001 C CNN
+F 4 "NRC003SAAN-RC(Digikey)" H 10700 5950 50  0000 C CNN "Código"
 	1    10400 6150
 	1    0    0    -1  
 $EndComp
@@ -174,7 +180,8 @@ P 9850 5900
 F 0 "R26" V 9750 5900 50  0000 C CNN
 F 1 "220" V 9850 5900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 9780 5900 50  0001 C CNN
-F 3 "~" H 9850 5900 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9850 5900 50  0001 C CNN
+F 4 "RC0805DK07220L(Digikey)" H 9850 5900 50  0001 C CNN "Código"
 	1    9850 5900
 	0    1    1    0   
 $EndComp
@@ -212,7 +219,8 @@ P 10400 5400
 F 0 "J15" H 10480 5442 50  0000 L CNN
 F 1 "Conn_01x03" H 10480 5351 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10400 5400 50  0001 C CNN
-F 3 "~" H 10400 5400 50  0001 C CNN
+F 3 "https://www.mouser.com/catalog/additional/Amphenol_bwb_bergstik.pdf" H 10400 5400 50  0001 C CNN
+F 4 "NRC003SAAN-RC(Digikey)" H 10700 5200 50  0000 C CNN "Código"
 	1    10400 5400
 	1    0    0    -1  
 $EndComp
@@ -223,7 +231,8 @@ P 9850 5150
 F 0 "R21" V 9750 5150 50  0000 C CNN
 F 1 "220" V 9850 5150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 9780 5150 50  0001 C CNN
-F 3 "~" H 9850 5150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9850 5150 50  0001 C CNN
+F 4 "RC0805DK07220L(Digikey)" H 9850 5150 50  0001 C CNN "Código"
 	1    9850 5150
 	0    1    1    0   
 $EndComp
@@ -261,7 +270,8 @@ P 10400 4650
 F 0 "J14" H 10480 4692 50  0000 L CNN
 F 1 "Conn_01x03" H 10480 4601 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10400 4650 50  0001 C CNN
-F 3 "~" H 10400 4650 50  0001 C CNN
+F 3 "https://www.mouser.com/catalog/additional/Amphenol_bwb_bergstik.pdf" H 10400 4650 50  0001 C CNN
+F 4 "NRC003SAAN-RC(Digikey)" H 10700 4450 50  0000 C CNN "Código"
 	1    10400 4650
 	1    0    0    -1  
 $EndComp
@@ -272,7 +282,8 @@ P 9850 4400
 F 0 "R19" V 9750 4400 50  0000 C CNN
 F 1 "220" V 9850 4400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 9780 4400 50  0001 C CNN
-F 3 "~" H 9850 4400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9850 4400 50  0001 C CNN
+F 4 "RC0805DK07220L(Digikey)" H 9850 4400 50  0001 C CNN "Código"
 	1    9850 4400
 	0    1    1    0   
 $EndComp
@@ -310,7 +321,8 @@ P 10400 3900
 F 0 "J13" H 10480 3942 50  0000 L CNN
 F 1 "Conn_01x03" H 10480 3851 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10400 3900 50  0001 C CNN
-F 3 "~" H 10400 3900 50  0001 C CNN
+F 3 "https://www.mouser.com/catalog/additional/Amphenol_bwb_bergstik.pdf" H 10400 3900 50  0001 C CNN
+F 4 "NRC003SAAN-RC(Digikey)" H 10700 3700 50  0000 C CNN "Código"
 	1    10400 3900
 	1    0    0    -1  
 $EndComp
@@ -321,7 +333,8 @@ P 9850 3650
 F 0 "R17" V 9750 3650 50  0000 C CNN
 F 1 "220" V 9850 3650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 9780 3650 50  0001 C CNN
-F 3 "~" H 9850 3650 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9850 3650 50  0001 C CNN
+F 4 "RC0805DK07220L(Digikey)" H 9850 3650 50  0001 C CNN "Código"
 	1    9850 3650
 	0    1    1    0   
 $EndComp
@@ -359,7 +372,8 @@ P 10400 3150
 F 0 "J12" H 10480 3192 50  0000 L CNN
 F 1 "Conn_01x03" H 10480 3101 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10400 3150 50  0001 C CNN
-F 3 "~" H 10400 3150 50  0001 C CNN
+F 3 "https://www.mouser.com/catalog/additional/Amphenol_bwb_bergstik.pdf" H 10400 3150 50  0001 C CNN
+F 4 "NRC003SAAN-RC(Digikey)" H 10700 2950 50  0000 C CNN "Código"
 	1    10400 3150
 	1    0    0    -1  
 $EndComp
@@ -370,7 +384,8 @@ P 9850 2900
 F 0 "R15" V 9750 2900 50  0000 C CNN
 F 1 "220" V 9850 2900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 9780 2900 50  0001 C CNN
-F 3 "~" H 9850 2900 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9850 2900 50  0001 C CNN
+F 4 "RC0805DK07220L(Digikey)" H 9850 2900 50  0001 C CNN "Código"
 	1    9850 2900
 	0    1    1    0   
 $EndComp
@@ -408,7 +423,8 @@ P 10400 2400
 F 0 "J11" H 10480 2442 50  0000 L CNN
 F 1 "Conn_01x03" H 10480 2351 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10400 2400 50  0001 C CNN
-F 3 "~" H 10400 2400 50  0001 C CNN
+F 3 "https://www.mouser.com/catalog/additional/Amphenol_bwb_bergstik.pdf" H 10400 2400 50  0001 C CNN
+F 4 "NRC003SAAN-RC(Digikey)" H 10700 2200 50  0000 C CNN "Código"
 	1    10400 2400
 	1    0    0    -1  
 $EndComp
@@ -419,7 +435,8 @@ P 9850 2150
 F 0 "R13" V 9750 2150 50  0000 C CNN
 F 1 "220" V 9850 2150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 9780 2150 50  0001 C CNN
-F 3 "~" H 9850 2150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9850 2150 50  0001 C CNN
+F 4 "RC0805DK07220L(Digikey)" H 9850 2150 50  0001 C CNN "Código"
 	1    9850 2150
 	0    1    1    0   
 $EndComp
@@ -457,7 +474,8 @@ P 10400 1650
 F 0 "J10" H 10480 1692 50  0000 L CNN
 F 1 "Conn_01x03" H 10480 1601 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10400 1650 50  0001 C CNN
-F 3 "~" H 10400 1650 50  0001 C CNN
+F 3 "https://www.mouser.com/catalog/additional/Amphenol_bwb_bergstik.pdf" H 10400 1650 50  0001 C CNN
+F 4 "NRC003SAAN-RC(Digikey)" H 10700 1450 50  0000 C CNN "Código"
 	1    10400 1650
 	1    0    0    -1  
 $EndComp
@@ -468,7 +486,8 @@ P 9850 1400
 F 0 "R11" V 9750 1400 50  0000 C CNN
 F 1 "220" V 9850 1400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 9780 1400 50  0001 C CNN
-F 3 "~" H 9850 1400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9850 1400 50  0001 C CNN
+F 4 "RC0805DK07220L(Digikey)" H 9850 1400 50  0001 C CNN "Código"
 	1    9850 1400
 	0    1    1    0   
 $EndComp
@@ -506,7 +525,8 @@ P 10400 900
 F 0 "J9" H 10480 942 50  0000 L CNN
 F 1 "Conn_01x03" H 10480 851 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10400 900 50  0001 C CNN
-F 3 "~" H 10400 900 50  0001 C CNN
+F 3 "https://www.mouser.com/catalog/additional/Amphenol_bwb_bergstik.pdf" H 10400 900 50  0001 C CNN
+F 4 "NRC003SAAN-RC(Digikey)" H 10700 700 50  0000 C CNN "Código"
 	1    10400 900 
 	1    0    0    -1  
 $EndComp
@@ -517,7 +537,8 @@ P 9850 650
 F 0 "R9" V 9750 650 50  0000 C CNN
 F 1 "220" V 9850 650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 9780 650 50  0001 C CNN
-F 3 "~" H 9850 650 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9850 650 50  0001 C CNN
+F 4 "RC0805DK07220L(Digikey)" H 9850 650 50  0001 C CNN "Código"
 	1    9850 650 
 	0    1    1    0   
 $EndComp
@@ -555,7 +576,8 @@ P 8450 6150
 F 0 "J8" H 8530 6192 50  0000 L CNN
 F 1 "Conn_01x03" H 8530 6101 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8450 6150 50  0001 C CNN
-F 3 "~" H 8450 6150 50  0001 C CNN
+F 3 "https://www.mouser.com/catalog/additional/Amphenol_bwb_bergstik.pdf" H 8450 6150 50  0001 C CNN
+F 4 "NRC003SAAN-RC(Digikey)" H 8850 5950 50  0000 C CNN "Código"
 	1    8450 6150
 	1    0    0    -1  
 $EndComp
@@ -566,7 +588,8 @@ P 7900 5900
 F 0 "R25" V 7800 5900 50  0000 C CNN
 F 1 "220" V 7900 5900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7830 5900 50  0001 C CNN
-F 3 "~" H 7900 5900 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 7900 5900 50  0001 C CNN
+F 4 "RC0805DK07220L(Digikey)" H 7900 5900 50  0001 C CNN "Código"
 	1    7900 5900
 	0    1    1    0   
 $EndComp
@@ -604,7 +627,8 @@ P 8450 5400
 F 0 "J7" H 8530 5442 50  0000 L CNN
 F 1 "Conn_01x03" H 8530 5351 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8450 5400 50  0001 C CNN
-F 3 "~" H 8450 5400 50  0001 C CNN
+F 3 "https://www.mouser.com/catalog/additional/Amphenol_bwb_bergstik.pdf" H 8450 5400 50  0001 C CNN
+F 4 "NRC003SAAN-RC(Digikey)" H 8850 5200 50  0000 C CNN "Código"
 	1    8450 5400
 	1    0    0    -1  
 $EndComp
@@ -615,7 +639,8 @@ P 7900 5150
 F 0 "R20" V 7800 5150 50  0000 C CNN
 F 1 "220" V 7900 5150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7830 5150 50  0001 C CNN
-F 3 "~" H 7900 5150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 7900 5150 50  0001 C CNN
+F 4 "RC0805DK07220L(Digikey)" H 7900 5150 50  0001 C CNN "Código"
 	1    7900 5150
 	0    1    1    0   
 $EndComp
@@ -653,7 +678,8 @@ P 8450 4650
 F 0 "J6" H 8530 4692 50  0000 L CNN
 F 1 "Conn_01x03" H 8530 4601 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8450 4650 50  0001 C CNN
-F 3 "~" H 8450 4650 50  0001 C CNN
+F 3 "https://www.mouser.com/catalog/additional/Amphenol_bwb_bergstik.pdf" H 8450 4650 50  0001 C CNN
+F 4 "NRC003SAAN-RC(Digikey)" H 8850 4450 50  0000 C CNN "Código"
 	1    8450 4650
 	1    0    0    -1  
 $EndComp
@@ -664,7 +690,8 @@ P 7900 4400
 F 0 "R18" V 7800 4400 50  0000 C CNN
 F 1 "220" V 7900 4400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7830 4400 50  0001 C CNN
-F 3 "~" H 7900 4400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 7900 4400 50  0001 C CNN
+F 4 "RC0805DK07220L(Digikey)" H 7900 4400 50  0001 C CNN "Código"
 	1    7900 4400
 	0    1    1    0   
 $EndComp
@@ -702,7 +729,8 @@ P 8450 3900
 F 0 "J5" H 8530 3942 50  0000 L CNN
 F 1 "Conn_01x03" H 8530 3851 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8450 3900 50  0001 C CNN
-F 3 "~" H 8450 3900 50  0001 C CNN
+F 3 "https://www.mouser.com/catalog/additional/Amphenol_bwb_bergstik.pdf" H 8450 3900 50  0001 C CNN
+F 4 "NRC003SAAN-RC(Digikey)" H 8850 3700 50  0000 C CNN "Código"
 	1    8450 3900
 	1    0    0    -1  
 $EndComp
@@ -713,7 +741,8 @@ P 7900 3650
 F 0 "R16" V 7800 3650 50  0000 C CNN
 F 1 "220" V 7900 3650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7830 3650 50  0001 C CNN
-F 3 "~" H 7900 3650 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 7900 3650 50  0001 C CNN
+F 4 "RC0805DK07220L(Digikey)" H 7900 3650 50  0001 C CNN "Código"
 	1    7900 3650
 	0    1    1    0   
 $EndComp
@@ -751,7 +780,8 @@ P 8450 3150
 F 0 "J4" H 8530 3192 50  0000 L CNN
 F 1 "Conn_01x03" H 8530 3101 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8450 3150 50  0001 C CNN
-F 3 "~" H 8450 3150 50  0001 C CNN
+F 3 "https://www.mouser.com/catalog/additional/Amphenol_bwb_bergstik.pdf" H 8450 3150 50  0001 C CNN
+F 4 "NRC003SAAN-RC(Digikey)" H 8850 2950 50  0000 C CNN "Código"
 	1    8450 3150
 	1    0    0    -1  
 $EndComp
@@ -762,7 +792,8 @@ P 7900 2900
 F 0 "R14" V 7800 2900 50  0000 C CNN
 F 1 "220" V 7900 2900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7830 2900 50  0001 C CNN
-F 3 "~" H 7900 2900 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 7900 2900 50  0001 C CNN
+F 4 "RC0805DK07220L(Digikey)" H 7900 2900 50  0001 C CNN "Código"
 	1    7900 2900
 	0    1    1    0   
 $EndComp
@@ -800,7 +831,8 @@ P 8450 2400
 F 0 "J3" H 8530 2442 50  0000 L CNN
 F 1 "Conn_01x03" H 8530 2351 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8450 2400 50  0001 C CNN
-F 3 "~" H 8450 2400 50  0001 C CNN
+F 3 "https://www.mouser.com/catalog/additional/Amphenol_bwb_bergstik.pdf" H 8450 2400 50  0001 C CNN
+F 4 "NRC003SAAN-RC(Digikey)" H 8850 2200 50  0000 C CNN "Código"
 	1    8450 2400
 	1    0    0    -1  
 $EndComp
@@ -811,7 +843,8 @@ P 7900 2150
 F 0 "R12" V 7800 2150 50  0000 C CNN
 F 1 "220" V 7900 2150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7830 2150 50  0001 C CNN
-F 3 "~" H 7900 2150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 7900 2150 50  0001 C CNN
+F 4 "RC0805DK07220L(Digikey)" H 7900 2150 50  0001 C CNN "Código"
 	1    7900 2150
 	0    1    1    0   
 $EndComp
@@ -849,7 +882,8 @@ P 8450 1650
 F 0 "J2" H 8530 1692 50  0000 L CNN
 F 1 "Conn_01x03" H 8530 1601 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8450 1650 50  0001 C CNN
-F 3 "~" H 8450 1650 50  0001 C CNN
+F 3 "https://www.mouser.com/catalog/additional/Amphenol_bwb_bergstik.pdf" H 8450 1650 50  0001 C CNN
+F 4 "NRC003SAAN-RC(Digikey)" H 8850 1450 50  0000 C CNN "Código"
 	1    8450 1650
 	1    0    0    -1  
 $EndComp
@@ -860,7 +894,8 @@ P 7900 1400
 F 0 "R10" V 7800 1400 50  0000 C CNN
 F 1 "220" V 7900 1400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7830 1400 50  0001 C CNN
-F 3 "~" H 7900 1400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 7900 1400 50  0001 C CNN
+F 4 "RC0805DK07220L(Digikey)" H 7900 1400 50  0001 C CNN "Código"
 	1    7900 1400
 	0    1    1    0   
 $EndComp
@@ -898,7 +933,8 @@ P 8450 900
 F 0 "J1" H 8530 942 50  0000 L CNN
 F 1 "Conn_01x03" H 8530 851 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8450 900 50  0001 C CNN
-F 3 "~" H 8450 900 50  0001 C CNN
+F 3 "https://www.mouser.com/catalog/additional/Amphenol_bwb_bergstik.pdf" H 8450 900 50  0001 C CNN
+F 4 "NRC003SAAN-RC(Digikey)" H 8850 700 50  0000 C CNN "Código"
 	1    8450 900 
 	1    0    0    -1  
 $EndComp
@@ -909,7 +945,8 @@ P 7900 650
 F 0 "R8" V 7800 650 50  0000 C CNN
 F 1 "220" V 7900 650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7830 650 50  0001 C CNN
-F 3 "~" H 7900 650 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 7900 650 50  0001 C CNN
+F 4 "RC0805DK07220L(Digikey)" H 7900 650 50  0001 C CNN "Código"
 	1    7900 650 
 	0    1    1    0   
 $EndComp
@@ -1000,7 +1037,8 @@ P 3550 3500
 F 0 "R6" H 3620 3546 50  0000 L CNN
 F 1 "10K" H 3620 3455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 3480 3500 50  0001 C CNN
-F 3 "~" H 3550 3500 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 3550 3500 50  0001 C CNN
+F 4 "RC0805DK0710KL(Digikey)" H 3550 3500 50  0001 C CNN "Código"
 	1    3550 3500
 	1    0    0    -1  
 $EndComp
@@ -1011,7 +1049,8 @@ P 1550 3500
 F 0 "R1" H 1620 3546 50  0000 L CNN
 F 1 "10K" H 1620 3455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 1480 3500 50  0001 C CNN
-F 3 "~" H 1550 3500 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1550 3500 50  0001 C CNN
+F 4 "RC0805DK0710KL(Digikey)" H 1550 3500 50  0001 C CNN "Código"
 	1    1550 3500
 	1    0    0    -1  
 $EndComp
@@ -1022,7 +1061,8 @@ P 3150 3500
 F 0 "R5" H 3220 3546 50  0000 L CNN
 F 1 "10K" H 3220 3455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 3080 3500 50  0001 C CNN
-F 3 "~" H 3150 3500 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 3150 3500 50  0001 C CNN
+F 4 "RC0805DK0710KL(Digikey)" H 3150 3500 50  0001 C CNN "Código"
 	1    3150 3500
 	1    0    0    -1  
 $EndComp
@@ -1033,7 +1073,8 @@ P 2750 3500
 F 0 "R4" H 2820 3546 50  0000 L CNN
 F 1 "10K" H 2820 3455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 2680 3500 50  0001 C CNN
-F 3 "~" H 2750 3500 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2750 3500 50  0001 C CNN
+F 4 "RC0805DK0710KL(Digikey)" H 2750 3500 50  0001 C CNN "Código"
 	1    2750 3500
 	1    0    0    -1  
 $EndComp
@@ -1044,7 +1085,8 @@ P 2350 3500
 F 0 "R3" H 2420 3546 50  0000 L CNN
 F 1 "10K" H 2420 3455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 2280 3500 50  0001 C CNN
-F 3 "~" H 2350 3500 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2350 3500 50  0001 C CNN
+F 4 "RC0805DK0710KL(Digikey)" H 2350 3500 50  0001 C CNN "Código"
 	1    2350 3500
 	1    0    0    -1  
 $EndComp
@@ -1055,7 +1097,8 @@ P 1950 3500
 F 0 "R2" H 2020 3546 50  0000 L CNN
 F 1 "10K" H 2020 3455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 1880 3500 50  0001 C CNN
-F 3 "~" H 1950 3500 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1950 3500 50  0001 C CNN
+F 4 "RC0805DK0710KL(Digikey)" H 1950 3500 50  0001 C CNN "Código"
 	1    1950 3500
 	1    0    0    -1  
 $EndComp
@@ -1112,7 +1155,8 @@ P 4750 2650
 F 0 "R7" H 4850 2700 50  0000 L CNN
 F 1 "10K" H 4850 2600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 4680 2650 50  0001 C CNN
-F 3 "~" H 4750 2650 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 4750 2650 50  0001 C CNN
+F 4 "RC0805DK0710KL(Digikey)" H 4750 2650 50  0001 C CNN "Código"
 	1    4750 2650
 	1    0    0    -1  
 $EndComp
@@ -1148,7 +1192,7 @@ P 5300 1700
 F 0 "C1" H 5050 1800 50  0000 L CNN
 F 1 "10uF" H 5000 1700 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_5x5.4" H 5338 1550 50  0001 C CNN
-F 3 "~" H 5300 1700 50  0001 C CNN
+F 3 "https://ar.mouser.com/datasheet/2/315/RDE0000C1259-1772497.pdf" H 5300 1700 50  0001 C CNN
 	1    5300 1700
 	1    0    0    -1  
 $EndComp
@@ -1261,7 +1305,7 @@ P 5700 5650
 F 0 "C2" H 5818 5696 50  0000 L CNN
 F 1 "CP" H 5818 5605 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 5738 5500 50  0001 C CNN
-F 3 "~" H 5700 5650 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1218.pdf" H 5700 5650 50  0001 C CNN
 	1    5700 5650
 	1    0    0    -1  
 $EndComp
@@ -1314,10 +1358,11 @@ $Comp
 L Transistor_FET:SUD50P08-25L Q1
 U 1 1 613F9F4D
 P 5200 5600
-F 0 "Q1" V 5542 5600 50  0000 C CNN
-F 1 "SUD50P08-25L" V 5451 5600 50  0000 C CNN
+F 0 "Q1" V 5200 5400 50  0000 C CNN
+F 1 "SUD50P08-25L" V 5550 5600 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 5395 5525 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/73443/sud50p08.pdf" H 5200 5600 50  0001 C CNN
+F 4 "SUD50P08-25L-E3CT-ND" V 5450 5700 50  0000 C CNN "Código"
 	1    5200 5600
 	0    -1   -1   0   
 $EndComp
@@ -1526,8 +1571,8 @@ Text Notes 1500 4650 0    79   ~ 16
 Bloque de interfaz para el usuario\n
 Text Notes 4400 4650 0    79   ~ 16
 Bloque de alimentación
-Text Notes 4750 950  0    79   ~ 16
-Bloque principal con PCA9685\n
+Text Notes 4450 950  0    79   ~ 16
+Bloque de control de servos mediante I2C\n
 Text Notes 1500 950  0    79   ~ 16
 Bloque con jumper para Address I2C
 $Comp
@@ -1584,10 +1629,10 @@ Wire Notes Line
 Wire Notes Line
 	4450 5250 4550 5500
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0101
 U 1 1 618A032B
 P 3150 1950
-F 0 "#PWR?" H 3150 1800 50  0001 C CNN
+F 0 "#PWR0101" H 3150 1800 50  0001 C CNN
 F 1 "VCC" H 3165 2123 50  0000 C CNN
 F 2 "" H 3150 1950 50  0001 C CNN
 F 3 "" H 3150 1950 50  0001 C CNN
@@ -1598,15 +1643,11 @@ Wire Wire Line
 	3150 1950 3150 2100
 Wire Wire Line
 	1950 1950 1950 2100
-Wire Bus Line
-	4550 3000 4550 3500
-Wire Bus Line
-	1800 3000 4550 3000
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0102
 U 1 1 618EF1E1
 P 5300 1900
-F 0 "#PWR?" H 5300 1650 50  0001 C CNN
+F 0 "#PWR0102" H 5300 1650 50  0001 C CNN
 F 1 "GND" H 5305 1727 50  0000 C CNN
 F 2 "" H 5300 1900 50  0001 C CNN
 F 3 "" H 5300 1900 50  0001 C CNN
@@ -1614,10 +1655,10 @@ F 3 "" H 5300 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0103
 U 1 1 618F17C8
 P 4500 2450
-F 0 "#PWR?" H 4500 2200 50  0001 C CNN
+F 0 "#PWR0103" H 4500 2200 50  0001 C CNN
 F 1 "GND" H 4505 2277 50  0000 C CNN
 F 2 "" H 4500 2450 50  0001 C CNN
 F 3 "" H 4500 2450 50  0001 C CNN
@@ -1625,10 +1666,10 @@ F 3 "" H 4500 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0104
 U 1 1 618F2754
 P 4750 2850
-F 0 "#PWR?" H 4750 2600 50  0001 C CNN
+F 0 "#PWR0104" H 4750 2600 50  0001 C CNN
 F 1 "GND" H 4600 2800 50  0000 C CNN
 F 2 "" H 4750 2850 50  0001 C CNN
 F 3 "" H 4750 2850 50  0001 C CNN
@@ -1636,10 +1677,10 @@ F 3 "" H 4750 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0105
 U 1 1 618F2DFA
 P 5600 4100
-F 0 "#PWR?" H 5600 3850 50  0001 C CNN
+F 0 "#PWR0105" H 5600 3850 50  0001 C CNN
 F 1 "GND" H 5605 3927 50  0000 C CNN
 F 2 "" H 5600 4100 50  0001 C CNN
 F 3 "" H 5600 4100 50  0001 C CNN
@@ -1647,10 +1688,10 @@ F 3 "" H 5600 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0106
 U 1 1 618F3F8C
 P 3550 3850
-F 0 "#PWR?" H 3550 3600 50  0001 C CNN
+F 0 "#PWR0106" H 3550 3600 50  0001 C CNN
 F 1 "GND" H 3555 3677 50  0000 C CNN
 F 2 "" H 3550 3850 50  0001 C CNN
 F 3 "" H 3550 3850 50  0001 C CNN
@@ -1658,10 +1699,10 @@ F 3 "" H 3550 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0107
 U 1 1 618F4670
 P 3150 3850
-F 0 "#PWR?" H 3150 3600 50  0001 C CNN
+F 0 "#PWR0107" H 3150 3600 50  0001 C CNN
 F 1 "GND" H 3155 3677 50  0000 C CNN
 F 2 "" H 3150 3850 50  0001 C CNN
 F 3 "" H 3150 3850 50  0001 C CNN
@@ -1669,10 +1710,10 @@ F 3 "" H 3150 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0108
 U 1 1 618F4ABE
 P 2750 3850
-F 0 "#PWR?" H 2750 3600 50  0001 C CNN
+F 0 "#PWR0108" H 2750 3600 50  0001 C CNN
 F 1 "GND" H 2755 3677 50  0000 C CNN
 F 2 "" H 2750 3850 50  0001 C CNN
 F 3 "" H 2750 3850 50  0001 C CNN
@@ -1680,10 +1721,10 @@ F 3 "" H 2750 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0109
 U 1 1 618F4DA8
 P 2350 3850
-F 0 "#PWR?" H 2350 3600 50  0001 C CNN
+F 0 "#PWR0109" H 2350 3600 50  0001 C CNN
 F 1 "GND" H 2355 3677 50  0000 C CNN
 F 2 "" H 2350 3850 50  0001 C CNN
 F 3 "" H 2350 3850 50  0001 C CNN
@@ -1691,10 +1732,10 @@ F 3 "" H 2350 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0110
 U 1 1 618F4FF8
 P 1950 3850
-F 0 "#PWR?" H 1950 3600 50  0001 C CNN
+F 0 "#PWR0110" H 1950 3600 50  0001 C CNN
 F 1 "GND" H 1955 3677 50  0000 C CNN
 F 2 "" H 1950 3850 50  0001 C CNN
 F 3 "" H 1950 3850 50  0001 C CNN
@@ -1702,10 +1743,10 @@ F 3 "" H 1950 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0111
 U 1 1 618F52ED
 P 1550 3850
-F 0 "#PWR?" H 1550 3600 50  0001 C CNN
+F 0 "#PWR0111" H 1550 3600 50  0001 C CNN
 F 1 "GND" H 1555 3677 50  0000 C CNN
 F 2 "" H 1550 3850 50  0001 C CNN
 F 3 "" H 1550 3850 50  0001 C CNN
@@ -1713,10 +1754,10 @@ F 3 "" H 1550 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0112
 U 1 1 618F5685
 P 2200 6050
-F 0 "#PWR?" H 2200 5800 50  0001 C CNN
+F 0 "#PWR0112" H 2200 5800 50  0001 C CNN
 F 1 "GND" H 2205 5877 50  0000 C CNN
 F 2 "" H 2200 6050 50  0001 C CNN
 F 3 "" H 2200 6050 50  0001 C CNN
@@ -1724,10 +1765,10 @@ F 3 "" H 2200 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0113
 U 1 1 618F608F
 P 5700 5950
-F 0 "#PWR?" H 5700 5700 50  0001 C CNN
+F 0 "#PWR0113" H 5700 5700 50  0001 C CNN
 F 1 "GND" H 5705 5777 50  0000 C CNN
 F 2 "" H 5700 5950 50  0001 C CNN
 F 3 "" H 5700 5950 50  0001 C CNN
@@ -1735,10 +1776,10 @@ F 3 "" H 5700 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0114
 U 1 1 618F654A
 P 8050 6300
-F 0 "#PWR?" H 8050 6050 50  0001 C CNN
+F 0 "#PWR0114" H 8050 6050 50  0001 C CNN
 F 1 "GND" H 8055 6127 50  0000 C CNN
 F 2 "" H 8050 6300 50  0001 C CNN
 F 3 "" H 8050 6300 50  0001 C CNN
@@ -1746,10 +1787,10 @@ F 3 "" H 8050 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0115
 U 1 1 618F6E2F
 P 10000 6300
-F 0 "#PWR?" H 10000 6050 50  0001 C CNN
+F 0 "#PWR0115" H 10000 6050 50  0001 C CNN
 F 1 "GND" H 10005 6127 50  0000 C CNN
 F 2 "" H 10000 6300 50  0001 C CNN
 F 3 "" H 10000 6300 50  0001 C CNN
@@ -1757,10 +1798,10 @@ F 3 "" H 10000 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0116
 U 1 1 618F728C
 P 10000 5550
-F 0 "#PWR?" H 10000 5300 50  0001 C CNN
+F 0 "#PWR0116" H 10000 5300 50  0001 C CNN
 F 1 "GND" H 10005 5377 50  0000 C CNN
 F 2 "" H 10000 5550 50  0001 C CNN
 F 3 "" H 10000 5550 50  0001 C CNN
@@ -1768,10 +1809,10 @@ F 3 "" H 10000 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0117
 U 1 1 618F75B0
 P 8050 5550
-F 0 "#PWR?" H 8050 5300 50  0001 C CNN
+F 0 "#PWR0117" H 8050 5300 50  0001 C CNN
 F 1 "GND" H 8055 5377 50  0000 C CNN
 F 2 "" H 8050 5550 50  0001 C CNN
 F 3 "" H 8050 5550 50  0001 C CNN
@@ -1779,10 +1820,10 @@ F 3 "" H 8050 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0118
 U 1 1 618F827D
 P 8050 4800
-F 0 "#PWR?" H 8050 4550 50  0001 C CNN
+F 0 "#PWR0118" H 8050 4550 50  0001 C CNN
 F 1 "GND" H 8055 4627 50  0000 C CNN
 F 2 "" H 8050 4800 50  0001 C CNN
 F 3 "" H 8050 4800 50  0001 C CNN
@@ -1790,10 +1831,10 @@ F 3 "" H 8050 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0119
 U 1 1 618F8751
 P 10000 4800
-F 0 "#PWR?" H 10000 4550 50  0001 C CNN
+F 0 "#PWR0119" H 10000 4550 50  0001 C CNN
 F 1 "GND" H 10005 4627 50  0000 C CNN
 F 2 "" H 10000 4800 50  0001 C CNN
 F 3 "" H 10000 4800 50  0001 C CNN
@@ -1801,10 +1842,10 @@ F 3 "" H 10000 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0120
 U 1 1 618F8A23
 P 8050 4050
-F 0 "#PWR?" H 8050 3800 50  0001 C CNN
+F 0 "#PWR0120" H 8050 3800 50  0001 C CNN
 F 1 "GND" H 8055 3877 50  0000 C CNN
 F 2 "" H 8050 4050 50  0001 C CNN
 F 3 "" H 8050 4050 50  0001 C CNN
@@ -1812,10 +1853,10 @@ F 3 "" H 8050 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0121
 U 1 1 618F8DE3
 P 10000 4050
-F 0 "#PWR?" H 10000 3800 50  0001 C CNN
+F 0 "#PWR0121" H 10000 3800 50  0001 C CNN
 F 1 "GND" H 10005 3877 50  0000 C CNN
 F 2 "" H 10000 4050 50  0001 C CNN
 F 3 "" H 10000 4050 50  0001 C CNN
@@ -1823,10 +1864,10 @@ F 3 "" H 10000 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0122
 U 1 1 618F922D
 P 8050 3300
-F 0 "#PWR?" H 8050 3050 50  0001 C CNN
+F 0 "#PWR0122" H 8050 3050 50  0001 C CNN
 F 1 "GND" H 8055 3127 50  0000 C CNN
 F 2 "" H 8050 3300 50  0001 C CNN
 F 3 "" H 8050 3300 50  0001 C CNN
@@ -1834,10 +1875,10 @@ F 3 "" H 8050 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0123
 U 1 1 618F95B6
 P 10000 3300
-F 0 "#PWR?" H 10000 3050 50  0001 C CNN
+F 0 "#PWR0123" H 10000 3050 50  0001 C CNN
 F 1 "GND" H 10005 3127 50  0000 C CNN
 F 2 "" H 10000 3300 50  0001 C CNN
 F 3 "" H 10000 3300 50  0001 C CNN
@@ -1845,10 +1886,10 @@ F 3 "" H 10000 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0124
 U 1 1 618F9899
 P 8050 2550
-F 0 "#PWR?" H 8050 2300 50  0001 C CNN
+F 0 "#PWR0124" H 8050 2300 50  0001 C CNN
 F 1 "GND" H 8055 2377 50  0000 C CNN
 F 2 "" H 8050 2550 50  0001 C CNN
 F 3 "" H 8050 2550 50  0001 C CNN
@@ -1856,10 +1897,10 @@ F 3 "" H 8050 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0125
 U 1 1 618FA0FF
 P 10000 2550
-F 0 "#PWR?" H 10000 2300 50  0001 C CNN
+F 0 "#PWR0125" H 10000 2300 50  0001 C CNN
 F 1 "GND" H 10005 2377 50  0000 C CNN
 F 2 "" H 10000 2550 50  0001 C CNN
 F 3 "" H 10000 2550 50  0001 C CNN
@@ -1867,10 +1908,10 @@ F 3 "" H 10000 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0126
 U 1 1 618FA694
 P 8050 1800
-F 0 "#PWR?" H 8050 1550 50  0001 C CNN
+F 0 "#PWR0126" H 8050 1550 50  0001 C CNN
 F 1 "GND" H 8055 1627 50  0000 C CNN
 F 2 "" H 8050 1800 50  0001 C CNN
 F 3 "" H 8050 1800 50  0001 C CNN
@@ -1878,10 +1919,10 @@ F 3 "" H 8050 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0127
 U 1 1 618FAB39
 P 10000 1800
-F 0 "#PWR?" H 10000 1550 50  0001 C CNN
+F 0 "#PWR0127" H 10000 1550 50  0001 C CNN
 F 1 "GND" H 10005 1627 50  0000 C CNN
 F 2 "" H 10000 1800 50  0001 C CNN
 F 3 "" H 10000 1800 50  0001 C CNN
@@ -1889,10 +1930,10 @@ F 3 "" H 10000 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0128
 U 1 1 618FB133
 P 8050 1050
-F 0 "#PWR?" H 8050 800 50  0001 C CNN
+F 0 "#PWR0128" H 8050 800 50  0001 C CNN
 F 1 "GND" H 8055 877 50  0000 C CNN
 F 2 "" H 8050 1050 50  0001 C CNN
 F 3 "" H 8050 1050 50  0001 C CNN
@@ -1900,10 +1941,10 @@ F 3 "" H 8050 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0129
 U 1 1 618FB7F7
 P 10000 1050
-F 0 "#PWR?" H 10000 800 50  0001 C CNN
+F 0 "#PWR0129" H 10000 800 50  0001 C CNN
 F 1 "GND" H 10005 877 50  0000 C CNN
 F 2 "" H 10000 1050 50  0001 C CNN
 F 3 "" H 10000 1050 50  0001 C CNN
@@ -1911,14 +1952,20 @@ F 3 "" H 10000 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0130
 U 1 1 618FBD43
 P 3350 5300
-F 0 "#PWR?" H 3350 5050 50  0001 C CNN
+F 0 "#PWR0130" H 3350 5050 50  0001 C CNN
 F 1 "GND" H 3500 5250 50  0000 C CNN
 F 2 "" H 3350 5300 50  0001 C CNN
 F 3 "" H 3350 5300 50  0001 C CNN
 	1    3350 5300
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	4550 3000 4550 3500
+Wire Bus Line
+	1800 3000 4550 3000
+Text Notes 4150 5750 0    50   ~ 0
+1- +V\n2- GND
 $EndSCHEMATC
